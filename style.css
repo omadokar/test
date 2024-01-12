@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+#projects {
+    margin-left: 8px;
+}
+.ima{
+    background: url(om.jpg);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: center center;
+}
+#ima{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.dis{
+    display: flex;
+}
+#about{
+    margin-left: 8px;
+}
+header p {
+    margin: 5px 0;
+}
+
+section {
+    padding: 40px;
+}
+.code1 li{
+    margin-left: 20px;
+}
+.code1 ul{
+    margin-left: 0px;
+    font-size: 18px;
+}
+.code1{
+    height: fit-content;
+    width: 250px;
+    border:2px solid #333;
+    border-radius: 20px;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    margin-left: 8px;
+    margin-top: 25px;
+}
+.code2 li{
+    margin-left: 20px;
+}
+.code2 ul{
+    margin-left: 0px;
+    font-size: 18px;
+}
+#ima p{
+    text-decoration: underline;
+}
+.code2{
+    height: fit-content;
+    width: 250px;
+    border:2px solid #333;
+    border-radius: 20px;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    margin-left: 12px;
+    margin-top: 25px;
+}
+#about h2{
+    text-decoration: underline;
+}
+.codie{
+    display: flex;
+}
+#projects .project {
+    margin-bottom: 2px;
+}
+#projects h2{
+    font-weight: bold;
+    text-decoration: underline;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.code1:hover{
+    box-shadow: 10px 10px 5px lightblue;
+}
+.code2:hover{
+    box-shadow: 10px 10px 5px lightblue;
+}
+.project p{
+    margin-left: 12px;
+}
+.project h3{
+    margin-left: 6px;
+}
+#about p{
+    margin-left: 10px;
+}
